@@ -2,7 +2,7 @@
 
 Objectif :
 -
-  - Etape 1 : on execute une commande sur <infile> (on traite infile comme une entree : a la place de l'entree standart 0(STDIN)).
+  - Etape 1 : on execute une commande sur "infile" (on traite infile comme une entree : a la place de l'entree standart 0(STDIN)).
   - Etape 2 : on recupere le resultat(sortie) de l'etape 1 pour executer une nouvelle commande.
 La sortie de l'etape 1 devient a nouveau l'entree de la nouvelle commande.
 La sortie de cette etape est enfin stockee dans <outfile> (outfile devient la sortie a la place de la sortie standart 1 (STDOUT)).
